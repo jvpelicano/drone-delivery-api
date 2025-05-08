@@ -4,7 +4,7 @@ This application provides a RESTful API for The Drone company to manage their dr
 The service allows registering drones, loading medications, checking drone status, and managing the delivery process.
 Technology Stack
 
-Spring Boot 3.2.0
+Spring Boot 3.4.5
 Java 17
 Spring Data JPA
 H2 In-memory Database
@@ -31,7 +31,7 @@ bashjava -jar target/drone-delivery-service-0.0.1-SNAPSHOT.jar
 The application will start on port 8080 by default.
 Database
 The application uses H2 in-memory database for data storage. You can access the H2 console at:
-http://localhost:8080/h2-console
+http://localhost:8081/h2-console
 Connection details:
 
 JDBC URL: jdbc:h2:mem:dronedb
